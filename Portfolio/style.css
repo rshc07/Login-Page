@@ -1,0 +1,34 @@
+body{
+    background-color: black;
+    font-family: "Poppins";
+}
+.navbar{
+
+    text-align: right;
+    margin-right: 40px;
+    margin-top: 30px;
+    padding: 10px;
+    
+}   
+.navbar a{
+    padding: 12px 14px;
+    text-decoration: none;
+    font-family: "Poppins";
+    color: aliceblue;
+    font-size: 35px;
+    position: relative;
+    
+}
+.navbar a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: #b1f091;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    transition: 0.5s;
+}
+.navbar a:hover::after{
+    width: 100%;
+}
