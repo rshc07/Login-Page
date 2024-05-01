@@ -18,7 +18,7 @@ This is a simple login form created with HTML and CSS. It features a clean and m
 1. Clone the repository:
 
     ```bash
-    [git clone https://github.com/your-username/login-form.git](https://github.com/rshc07/Login-Page.git)
+   [https://github.com/rshc07/Login-Page.git]
     ```
 
 2. Open the `index.html` file in your web browser to view the login form.
